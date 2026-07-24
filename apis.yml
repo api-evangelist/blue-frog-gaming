@@ -1,8 +1,29 @@
 aid: blue-frog-gaming
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/blue-frog-gaming.png
 name: Blue Frog Gaming
-description: Blue Frog Gaming is a company surfaced as a portfolio company of y-combinator and added to
-  the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment
-  pipeline.
+description: >-
+  Blue Frog Gaming is a small independent game studio founded in 2007 by Matt
+  Maroon and backed by Y Combinator (Summer 2007 batch), based in Akron, Ohio.
+  The company builds browser-based and social strategy games, best known for
+  Starfleet Commander — a persistent, multi-universe game of resource
+  management, alliance building, and fleet combat — along with Stardrift
+  Empires (built with Syfy Games) and the sci-fi MMO ShadowRift. Blue Frog
+  Gaming is a consumer game developer rather than an API-first platform: as of
+  this profile it publishes no public developer portal, API documentation, SDKs,
+  or machine-readable API description. This record is maintained in the API
+  Evangelist network as a company profile; it will be upgraded if and when a
+  public API surface is discovered.
 url: https://raw.githubusercontent.com/api-evangelist/blue-frog-gaming/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -10,11 +31,30 @@ x-backed-by:
 - y-combinator
 x-tier: stub
 x-tier-reason: portfolio-lead
+x-enrichment:
+  last_run: '2026-07-18'
+  api_surface: none
+  notes: >-
+    Consumer browser/MMO game studio; no public developer portal, docs, SDKs,
+    OpenAPI, OAuth, /.well-known, or llms.txt found. HTTPS unreachable (site
+    serves over HTTP only). Only a live homepage and robots.txt were reachable.
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-18'
 tags:
 - Company
+- Gaming
+- Video Games
+- Browser Games
+- Social Games
+- MMO
+- Game Development
+- Entertainment
+common:
+- type: Website
+  url: http://bluefroggaming.com
+- type: DomainSecurity
+  url: security/blue-frog-gaming-domain-security.yml
 apis: []
 maintainers:
 - FN: Kin Lane
