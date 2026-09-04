@@ -21,6 +21,8 @@ accessModel:
   source: []
   generated: '2026-07-22'
   method: derived
+  source:
+  - {url: 'http://bluefroggaming.com', status: 302, note: 'declared website redirects to https://playsfc2.com:443/ — a different registrable domain (bluefroggaming.com -> playsfc2.com), possible rename or acquisition (probed 2026-09-03, roadmap#169)'}
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/blue-frog-gaming.png
 name: Blue Frog Gaming
 description: >-
